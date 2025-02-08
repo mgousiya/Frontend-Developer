@@ -7,22 +7,47 @@
 </head>
 <body>
     <h1>HTML Form</h1>
-    <h2>Youtube</h2>
-    <form action="https://www.youtube.com/results">
-        <input type="text" name = "search_query">
-        <button>Search on Youtube</button>
+    <h2>Login Form</h2>
+    <form action="/">
+        <p>
+        <div><label for="name">Name</label></div>
+        <input id="name" name="name" type="text" placeholder="Enter your name">
+        </p>
+        <p>
+        <div><label for="email">Email</label></div>
+        <input id="email" type="email" name="email" placeholder="Enter your email">
+        </p>
+        <p>
+        <div><label for="mobile">Mobile Number</label></div>
+        <input id="mobile" name="mobile" type="tel" placeholder="Enter your mobile">
+        </p>
+        <p>
+        <div><label for="password">Password</label></div>
+        <input id="password" name="password" type="password" placeholder="Enter your password">
+        </p>    
+        <button type = "reset">Reset</button>
+        <button type="submit">Submit</button>
     </form>
-    <h2>Flipkart</h2>
-    <form action="https://www.flipkart.com/search">
-        <input type="text" name = "q">
-        <button>Search on Flipkart</button>
-    </form>
-    <h2>My Form</h2>
-    <form action="https://www.flipkart.com/search">
-        <input type="text" name = "q">
-        <input type="text" name = "a">
-        <input type="text" name = "b">
-        <button>Submit</button>
-    </form>
+    
+    <div hidden>
+        <h2>Youtube</h2>
+        <form action="https://www.youtube.com/results">
+            <input type="text" name = "search_query">
+            <button>Search on Youtube</button>
+        </form>
+        <h2>Flipkart</h2>
+        <form action="https://www.flipkart.com/search">
+            <label for="flipkart">Flipkart Search</label>
+            <input id="flipkart" type="text" name = "q">
+            <button>Search on Flipkart</button>
+        </form>
+        <h2>My Form</h2>
+        <form action="/">
+            <input type="text" placeholder="Please enter your name" required>
+            <input type="password" placeholder="Enter your password" minlength="6" maxlength="10">
+            <input type="number" placeholder="Enter your number" min="100" max="500">
+            <button>Submit</button>
+        </form>
+    </div>
 </body>
 </html>
