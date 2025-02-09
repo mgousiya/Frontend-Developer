@@ -1,0 +1,54 @@
+.li{
+    font-weight: 700;
+}
+
+.html{
+    color:red
+}
+.css{
+    color:blue
+}
+.javascript{
+    color: green;
+}
+.react{
+    color: orangered;
+
+}
+
+.tailwind{
+    color: skyblue;
+}
+
+#html{
+    font-size: 32px;
+}
+#css{
+    font-size: 32px;
+}
+#javascript{
+    font-size: 32px;
+}
+#react{
+    font-size: 32px;
+}
+#tailwind{
+    font-size: 32px;
+}
+
+[class]{
+    background-color: bisque;
+}
+
+[gousiya]{
+    background-color: brown;
+}
+ul p{
+    background-color: chocolate;
+}
+h1:hover{
+    color:fuchsia;
+}
+[gousiya]:hover{
+    color:orange
+}
