@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+p{
+    background-color: greenyellow;
+    width: 300px;
+    height: 100px;
+    padding:25px;
+    box-sizing: border-box;
+    border: 10px solid green;
+    margin:25px;
+}
+
+span{
+    background-color: cadetblue;
+    width:300px;
+    height: 100px;
+    padding: 25px;
+    border: 10px hotpink;
+    margin:20px;
+    outline: 10px brown;
+}
+
+a{
+    background-color: burlywood;
+    padding: 25px;
+
+}
+div{
+    background-color: aquamarine;
+    padding: 25px;
+    border: 10px;
+}
+
+img{
+    height: 300px;
+    width:300px;
+    background-color: hotpink;
+    padding: 50px;
+    border: 20px skyblue;
+    margin:25px brown;
+}
+
+iframe{
+    height: 480px;
+}
