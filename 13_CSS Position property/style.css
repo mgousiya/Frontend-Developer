@@ -1,0 +1,39 @@
+div{
+    position: relative;
+    background-color:chocolate;
+    /* top: 5px;
+    bottom:5px;
+    right: 5px;
+    left:5px; */
+}
+
+ul{
+    position: relative;
+    background-color: brown;
+    margin-bottom: 80px;
+    margin-top: -100px;
+}
+
+.css-element{
+    position: absolute;
+    background-color: aquamarine;
+    top:50px;
+    left:50px;
+    /* right:5px;
+    bottom: 5px; */
+}
+
+.js-element{
+    position: fixed;
+    top:10px;
+    left:10px;
+    right:10px;
+    background-color: red;
+}
+
+.html-element{
+    position: sticky;
+    background-color:darkmagenta;
+    top:25px;
+
+}
